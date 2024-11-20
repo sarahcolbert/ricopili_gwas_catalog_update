@@ -22,3 +22,7 @@ Filters applied
 - N > 10,000
 
 The resulting file is [gwascatalog.Nov_2024.rp.txt](https://github.com/sarahcolbert/ricopili_gwas_catalog_update/blob/main/gwascatalog.Nov_2024.rp.txt)
+
+## Using the file
+
+To use the updated gwas catalog file, you can simply supply it to the --prekno flag when running the postimp module like `--prekno /projects/0/prjs0917/resources/gwas_catalog/gwascatalog.Nov_2024.rp.txt`
