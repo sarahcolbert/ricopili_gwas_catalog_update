@@ -13,7 +13,7 @@ downloaded the "All associations v1.0" file which is called "full" in this direc
 
 ## Cleaning and formatting the file
 
-See the script 01-clean_gwas_catalog_for_rico.R
+See the script [01-clean_gwas_catalog_for_rico.R](https://github.com/sarahcolbert/ricopili_gwas_catalog_update/blob/main/01-clean_gwas_catalog_for_rico.R)
 
 Filters applied
 - P < 5e-8
@@ -21,4 +21,4 @@ Filters applied
 - To reduce number of hits and retain those most relevant, removed some biomarker phenotypes (i.e. those containing "level" in the name, e.g., "IgE levels" or "Serum albumin levels")
 - N > 10,000
 
-The resulting file is "gwascatalog.Nov_2024.rp.txt".
+The resulting file is [gwascatalog.Nov_2024.rp.txt](https://github.com/sarahcolbert/ricopili_gwas_catalog_update/blob/main/gwascatalog.Nov_2024.rp.txt)
