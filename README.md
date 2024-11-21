@@ -25,6 +25,22 @@ The resulting file is [gwascatalog.Nov_2024.rp.txt](https://github.com/sarahcolb
 
 ## Using the file
 
-To use the updated gwas catalog file, you can simply supply it to the --prekno flag when running the postimp module like:
+You need to make a few changes to the scripts in your rp_bin. First, edit the postimp_navi script: 
 
-`--prekno /projects/0/prjs0917/resources/gwas_catalog/gwascatalog.Nov_2024.rp.txt`
+```
+## line 1306 should link to the new gwas catalog file like:
+my @gwascat_files = ("/projects/0/prjs0917/resources/gwas_catalog/gwascatalog.Nov_2024.rp.txt"); ## edited by SMCC 20241120
+
+## line 4015 do the same, like:
+$prekno_file = "/projects/0/prjs0917/resources/gwas_catalog/gwascatalog.Nov_2024.rp.txt"; ## edited by SMCC on 20241120
+
+```
+
+Also edit the area_plot_16_speed file:
+
+```
+## line 1306 should link to the new gwas catalog file like:
+my @gwascat_files = ("/projects/0/prjs0917/resources/gwas_catalog/gwascatalog.Nov_2024.rp.txt"); ## edited by SMCC on 20241120
+
+```
+
