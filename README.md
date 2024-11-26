@@ -44,3 +44,8 @@ my @gwascat_files = ("/projects/0/prjs0917/resources/gwas_catalog/gwascatalog.No
 
 ```
 
+## Updating Plotting Script
+
+Now that there are many more hits in the GWAS catalog file, the plots can get a bit cluttered, so I adjusted the code to plot the GWAS catalog hits in the margin to the left of the plot.
+
+You can implement the changes using the [area_plot_16_speed](https://github.com/sarahcolbert/ricopili_gwas_catalog_update/blob/main/area_plot_16_speed) script in this repository. The changes are tagged with `## edited by SMCC`.
