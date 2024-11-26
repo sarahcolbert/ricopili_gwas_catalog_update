@@ -44,7 +44,7 @@ my @gwascat_files = ("/projects/0/prjs0917/resources/gwas_catalog/gwascatalog.No
 
 ```
 
-## Updating Plotting Script
+## Updating the plots
 
 Now that there are many more hits in the GWAS catalog file, the plots can get a bit cluttered, so I adjusted the code to plot the GWAS catalog hits in the margin to the left of the plot.
 
